@@ -12,6 +12,8 @@ y <- m*x + b + e
 
 dat <- as.data.frame(cbind(x,y))
 
+# this line was added under master
+
 p <- ggplot(data=dat, aes(x,y)) 
 
 p + geom_point(color="red", size=2)
