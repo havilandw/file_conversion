@@ -9,6 +9,7 @@ e <- s*rnorm(length(x))
 
 y <- m*x + b + e
 
+# this line was written in test
 
 dat <- as.data.frame(cbind(x,y))
 
