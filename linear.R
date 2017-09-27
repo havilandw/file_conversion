@@ -14,5 +14,5 @@ dat <- as.data.frame(cbind(x,y))
 
 p <- ggplot(data=dat, aes(x,y)) 
 
-p + geom_point(color="blue", size=2)
+p + geom_point(color="red", size=2)
 
